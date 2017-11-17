@@ -350,15 +350,15 @@
       <DependentUpon>SelectModsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NesDefaultGame.cs" />
-    <Compile Include="FelLib\AWFELMessage.cs" />
-    <Compile Include="FelLib\AWFELStandardRequest.cs" />
-    <Compile Include="FelLib\AWFELStatusResponse.cs" />
-    <Compile Include="FelLib\AWFELVerifyDeviceResponse.cs" />
-    <Compile Include="FelLib\AWUSBRequest.cs" />
-    <Compile Include="FelLib\AWUSBResponse.cs" />
-    <Compile Include="FelLib\Fel.cs" />
-    <Compile Include="FelLib\FelException.cs" />
-    <Compile Include="FelLib\FelParseException.cs" />
+    <Compile Include="Lib\FelLib\AWFELMessage.cs" />
+    <Compile Include="Lib\FelLib\AWFELStandardRequest.cs" />
+    <Compile Include="Lib\FelLib\AWFELStatusResponse.cs" />
+    <Compile Include="Lib\FelLib\AWFELVerifyDeviceResponse.cs" />
+    <Compile Include="Lib\FelLib\AWUSBRequest.cs" />
+    <Compile Include="Lib\FelLib\AWUSBResponse.cs" />
+    <Compile Include="Lib\FelLib\Fel.cs" />
+    <Compile Include="Lib\FelLib\FelException.cs" />
+    <Compile Include="Lib\FelLib\FelParseException.cs" />
     <Compile Include="Lib\GameGenie\GameGeniePatcherNes.cs" />
     <Compile Include="Forms\ImageGooglerForm.cs">
       <SubType>Form</SubType>
