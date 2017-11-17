@@ -164,10 +164,10 @@
     <Compile Include="FtpServer\ILogHandler.cs" />
     <Compile Include="FtpServer\Server.cs" />
     <Compile Include="FtpServer\Session.cs" />
-    <Compile Include="GameGenieCodeAddModForm.cs">
+    <Compile Include="Forms\GameGenieCodeAddModForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GameGenieCodeAddModForm.designer.cs">
+    <Compile Include="Forms\GameGenieCodeAddModForm.designer.cs">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GameGenieCodeForm.cs">
@@ -495,10 +495,10 @@
     <EmbeddedResource Include="Forms\FoldersManagerForm.ro-RO.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.hu-HU.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.ro-RO.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameGenieCodeForm.hu-HU.resx">
@@ -535,10 +535,10 @@
     <EmbeddedResource Include="Forms\FoldersManagerForm.pt-BR.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.ja-JP.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.pt-BR.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameGenieCodeForm.ja-JP.resx">
@@ -719,73 +719,73 @@
     <EmbeddedResource Include="Forms\FoldersManagerForm.zh-TW.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.bg-BG.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.ca-ES.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.da-DK.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.de-DE.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.el-GR.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.en-GB.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.es-AR.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.es-ES.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.fi-FI.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.fr-FR.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.id-ID.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.it-IT.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.nl.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.nl.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.pl-PL.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.pt-PT.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.ru-RU.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.sk-SK.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.sv-SE.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.uk-UA.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.zh-CHS.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.zh-CHT.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameGenieCodeAddModForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\GameGenieCodeAddModForm.zh-TW.resx">
       <DependentUpon>GameGenieCodeAddModForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameGenieCodeForm.bg-BG.resx">
