@@ -477,10 +477,10 @@
     <Compile Include="Forms\WaitingClovershellForm.Designer.cs">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="WaitingFelForm.cs">
+    <Compile Include="Forms\WaitingFelForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WaitingFelForm.Designer.cs">
+    <Compile Include="Forms\WaitingFelForm.Designer.cs">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </Compile>
     <Compile Include="WorkerForm.cs">
@@ -1588,85 +1588,85 @@
     <EmbeddedResource Include="Forms\WaitingClovershellForm.zh-TW.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.bg-BG.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.ca-ES.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.da-DK.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.de-DE.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.el-GR.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.en-GB.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.es-AR.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.es-ES.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.fi-FI.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.fr-FR.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.hu-HU.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.id-ID.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.it-IT.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.ja-JP.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.nl.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.nl.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.pl-PL.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.pt-BR.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.pt-PT.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.ro-RO.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.ru-RU.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.sk-SK.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.sv-SE.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.uk-UA.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.zh-CHS.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.zh-CHT.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingFelForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\WaitingFelForm.zh-TW.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkerForm.resx">
