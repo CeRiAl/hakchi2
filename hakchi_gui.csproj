@@ -177,10 +177,10 @@
       <DependentUpon>GameGenieCodeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GameGenie\GameGenieDataBase.cs" />
-    <Compile Include="ImagesForm.cs">
+    <Compile Include="Forms\ImagesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ImagesForm.Designer.cs">
+    <Compile Include="Forms\ImagesForm.Designer.cs">
       <DependentUpon>ImagesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LibWinUsb\Descriptors\ClassCodeType.cs" />
@@ -926,7 +926,7 @@
     <EmbeddedResource Include="Forms\ImageGooglerForm.zh-TW.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImagesForm.resx">
+    <EmbeddedResource Include="Forms\ImagesForm.resx">
       <DependentUpon>ImagesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.bg-BG.resx">
