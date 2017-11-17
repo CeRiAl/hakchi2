@@ -454,10 +454,10 @@
     <Compile Include="Forms\SnesPresetEditor.Designer.cs">
       <DependentUpon>SnesPresetEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="StringInputForm.cs">
+    <Compile Include="Forms\StringInputForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StringInputForm.Designer.cs">
+    <Compile Include="Forms\StringInputForm.Designer.cs">
       <DependentUpon>StringInputForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TarStream.cs" />
@@ -1495,7 +1495,7 @@
     <EmbeddedResource Include="Forms\SnesPresetEditor.resx">
       <DependentUpon>SnesPresetEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StringInputForm.resx">
+    <EmbeddedResource Include="Forms\StringInputForm.resx">
       <DependentUpon>StringInputForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FoldersManagerForm.pl-PL.resx">
