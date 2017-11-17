@@ -448,10 +448,10 @@
     <Compile Include="SevenZip\SevenZipExtractorAsynchronous.cs" />
     <Compile Include="SevenZip\SevenZipSfx.cs" />
     <Compile Include="SevenZip\StreamWrappers.cs" />
-    <Compile Include="SnesPresetEditor.cs">
+    <Compile Include="Forms\SnesPresetEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SnesPresetEditor.Designer.cs">
+    <Compile Include="Forms\SnesPresetEditor.Designer.cs">
       <DependentUpon>SnesPresetEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="StringInputForm.cs">
@@ -1492,7 +1492,7 @@
     <EmbeddedResource Include="Forms\SelectIconForm.ru-RU.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SnesPresetEditor.resx">
+    <EmbeddedResource Include="Forms\SnesPresetEditor.resx">
       <DependentUpon>SnesPresetEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StringInputForm.resx">
