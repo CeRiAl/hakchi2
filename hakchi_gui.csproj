@@ -462,10 +462,10 @@
     </Compile>
     <Compile Include="TarStream.cs" />
     <Compile Include="TaskbarProgress.cs" />
-    <Compile Include="FoldersManagerForm.cs">
+    <Compile Include="Forms\FoldersManagerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FoldersManagerForm.Designer.cs">
+    <Compile Include="Forms\FoldersManagerForm.Designer.cs">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TrackableFileStream.cs" />
@@ -489,10 +489,10 @@
     <Compile Include="WorkerForm.Designer.cs">
       <DependentUpon>WorkerForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FoldersManagerForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.hu-HU.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.ro-RO.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameGenieCodeAddModForm.hu-HU.resx">
@@ -529,10 +529,10 @@
     <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.ja-JP.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.pt-BR.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameGenieCodeAddModForm.ja-JP.resx">
@@ -659,64 +659,64 @@
     <EmbeddedResource Include="Forms\FileBrowserForm.resx">
       <DependentUpon>FileBrowserForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.bg-BG.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.ca-ES.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.da-DK.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.de-DE.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.el-GR.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.en-GB.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.es-AR.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.es-ES.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.fi-FI.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.fr-FR.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.id-ID.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.it-IT.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.nl.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.nl.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.pt-PT.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.sk-SK.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.sv-SE.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.uk-UA.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.zh-CHS.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.zh-CHT.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.zh-TW.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameGenieCodeAddModForm.bg-BG.resx">
@@ -1498,13 +1498,13 @@
     <EmbeddedResource Include="StringInputForm.resx">
       <DependentUpon>StringInputForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.pl-PL.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoldersManagerForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\FoldersManagerForm.ru-RU.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WaitingClovershellForm.bg-BG.resx">
