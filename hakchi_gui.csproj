@@ -406,10 +406,10 @@
     <Compile Include="SelectIconForm.Designer.cs">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectFileForm.cs">
+    <Compile Include="Forms\SelectFileForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectFileForm.Designer.cs">
+    <Compile Include="Forms\SelectFileForm.Designer.cs">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SevenZip\ArchiveEmulationStreamProxy.cs" />
@@ -1156,16 +1156,16 @@
     <EmbeddedResource Include="Forms\SearchForm.zh-TW.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.hu-HU.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.ja-JP.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.pt-BR.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.ro-RO.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectIconForm.hu-HU.resx">
@@ -1333,64 +1333,64 @@
     <EmbeddedResource Include="SelectNesButtonsForm.zh-TW.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.bg-BG.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.ca-ES.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.da-DK.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.de-DE.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.el-GR.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.en-GB.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.es-AR.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.es-ES.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.fi-FI.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.fr-FR.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.id-ID.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.it-IT.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.nl.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.nl.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.pt-PT.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.sk-SK.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.sv-SE.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.uk-UA.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.zh-CHS.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.zh-CHT.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.zh-TW.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectIconForm.bg-BG.resx">
@@ -1474,7 +1474,7 @@
     <EmbeddedResource Include="SelectNesButtonsForm.ru-RU.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.pl-PL.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectIconForm.pl-PL.resx">
@@ -1483,10 +1483,10 @@
     <EmbeddedResource Include="SelectIconForm.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectFileForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\SelectFileForm.ru-RU.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectIconForm.ru-RU.resx">
