@@ -337,10 +337,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SaveStateManager.cs">
+    <Compile Include="Forms\SaveStateManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaveStateManager.Designer.cs">
+    <Compile Include="Forms\SaveStateManager.Designer.cs">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </Compile>
     <Compile Include="SelectModsForm.cs">
@@ -569,10 +569,10 @@
     <EmbeddedResource Include="Properties\Resources.ja-JP.resx" />
     <EmbeddedResource Include="Properties\Resources.pt-BR.resx" />
     <EmbeddedResource Include="Properties\Resources.ro-RO.resx" />
-    <EmbeddedResource Include="SaveStateManager.ja-JP.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.ja-JP.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.pt-BR.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.pt-BR.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchForm.ja-JP.resx">
@@ -1027,73 +1027,73 @@
     <EmbeddedResource Include="Properties\Resources.zh-CHS.resx" />
     <EmbeddedResource Include="Properties\Resources.zh-CHT.resx" />
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx" />
-    <EmbeddedResource Include="SaveStateManager.bg-BG.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.bg-BG.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.ca-ES.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.ca-ES.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.da-DK.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.da-DK.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.de-DE.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.de-DE.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.el-GR.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.el-GR.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.en-GB.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.en-GB.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.es-AR.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.es-AR.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.es-ES.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.es-ES.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.fi-FI.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.fi-FI.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.fr-FR.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.fr-FR.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.id-ID.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.id-ID.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.it-IT.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.it-IT.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.nl.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.nl.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.pl-PL.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.pl-PL.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.pt-PT.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.pt-PT.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.ru-RU.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.ru-RU.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.sk-SK.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.sk-SK.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.sv-SE.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.sv-SE.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.uk-UA.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.uk-UA.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.zh-CHS.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.zh-CHT.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaveStateManager.zh-TW.resx">
+    <EmbeddedResource Include="Forms\SaveStateManager.zh-TW.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchForm.bg-BG.resx">
