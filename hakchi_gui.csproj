@@ -471,10 +471,10 @@
     <Compile Include="TrackableFileStream.cs" />
     <Compile Include="UnsupportedFourScreenException.cs" />
     <Compile Include="UnsupportedMapperException.cs" />
-    <Compile Include="WaitingClovershellForm.cs">
+    <Compile Include="Forms\WaitingClovershellForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WaitingClovershellForm.Designer.cs">
+    <Compile Include="Forms\WaitingClovershellForm.Designer.cs">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </Compile>
     <Compile Include="WaitingFelForm.cs">
@@ -1507,85 +1507,85 @@
     <EmbeddedResource Include="Forms\FoldersManagerForm.ru-RU.resx">
       <DependentUpon>FoldersManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.bg-BG.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.ca-ES.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.da-DK.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.de-DE.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.el-GR.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.en-GB.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.es-AR.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.es-ES.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.fi-FI.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.fr-FR.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.hu-HU.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.id-ID.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.it-IT.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.ja-JP.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.nl.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.nl.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.pl-PL.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.pt-BR.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.pt-PT.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.ro-RO.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.ru-RU.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.sk-SK.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.sv-SE.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.uk-UA.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.zh-CHS.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.zh-CHT.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitingClovershellForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\WaitingClovershellForm.zh-TW.resx">
       <DependentUpon>WaitingClovershellForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WaitingFelForm.bg-BG.resx">
