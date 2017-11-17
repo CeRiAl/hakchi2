@@ -343,10 +343,10 @@
     <Compile Include="Forms\SaveStateManager.Designer.cs">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectModsForm.cs">
+    <Compile Include="Forms\SelectModsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectModsForm.Designer.cs">
+    <Compile Include="Forms\SelectModsForm.Designer.cs">
       <DependentUpon>SelectModsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NesDefaultGame.cs" />
@@ -1453,7 +1453,7 @@
     <EmbeddedResource Include="Forms\SelectIconForm.zh-TW.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectModsForm.resx">
+    <EmbeddedResource Include="Forms\SelectModsForm.resx">
       <DependentUpon>SelectModsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SearchForm.pl-PL.resx">
