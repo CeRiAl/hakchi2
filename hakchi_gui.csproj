@@ -140,9 +140,9 @@
     <Compile Include="Clovershell\ExecConnection.cs" />
     <Compile Include="Clovershell\ShellConnection.cs" />
     <Compile Include="ConfigIni.cs" />
-    <Compile Include="GameGenie\GameGenieFormatException.cs" />
-    <Compile Include="GameGenie\GameGenieNotFoundException.cs" />
-    <Compile Include="GameGenie\GameGeniePatcherSnes.cs" />
+    <Compile Include="Lib\GameGenie\GameGenieFormatException.cs" />
+    <Compile Include="Lib\GameGenie\GameGenieNotFoundException.cs" />
+    <Compile Include="Lib\GameGenie\GameGeniePatcherSnes.cs" />
     <Compile Include="Forms\SelectConsoleDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,7 +176,7 @@
     <Compile Include="Forms\GameGenieCodeForm.designer.cs">
       <DependentUpon>GameGenieCodeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GameGenie\GameGenieDataBase.cs" />
+    <Compile Include="Lib\GameGenie\GameGenieDataBase.cs" />
     <Compile Include="Forms\ImagesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -359,7 +359,7 @@
     <Compile Include="FelLib\Fel.cs" />
     <Compile Include="FelLib\FelException.cs" />
     <Compile Include="FelLib\FelParseException.cs" />
-    <Compile Include="GameGenie\GameGeniePatcherNes.cs" />
+    <Compile Include="Lib\GameGenie\GameGeniePatcherNes.cs" />
     <Compile Include="Forms\ImageGooglerForm.cs">
       <SubType>Form</SubType>
     </Compile>
