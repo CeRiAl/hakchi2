@@ -382,10 +382,10 @@
     <Compile Include="Apps\NesMiniApplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchForm.cs">
+    <Compile Include="Forms\SearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SearchForm.Designer.cs">
+    <Compile Include="Forms\SearchForm.Designer.cs">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SelectSnesButtonsForm.cs">
@@ -575,10 +575,10 @@
     <EmbeddedResource Include="Forms\SaveStateManager.pt-BR.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\SearchForm.ja-JP.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\SearchForm.pt-BR.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectConsoleDialog.bg-BG.resx">
@@ -1096,64 +1096,64 @@
     <EmbeddedResource Include="Forms\SaveStateManager.zh-TW.resx">
       <DependentUpon>SaveStateManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\SearchForm.bg-BG.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\SearchForm.ca-ES.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\SearchForm.da-DK.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\SearchForm.de-DE.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\SearchForm.el-GR.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\SearchForm.en-GB.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\SearchForm.es-AR.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\SearchForm.es-ES.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\SearchForm.fi-FI.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\SearchForm.fr-FR.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\SearchForm.id-ID.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\SearchForm.it-IT.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.nl.resx">
+    <EmbeddedResource Include="Forms\SearchForm.nl.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\SearchForm.pt-PT.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\SearchForm.sk-SK.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\SearchForm.sv-SE.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\SearchForm.uk-UA.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\SearchForm.zh-CHS.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\SearchForm.zh-CHT.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\SearchForm.zh-TW.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectFileForm.hu-HU.resx">
@@ -1456,13 +1456,13 @@
     <EmbeddedResource Include="SelectModsForm.resx">
       <DependentUpon>SelectModsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\SearchForm.pl-PL.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.resx">
+    <EmbeddedResource Include="Forms\SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\SearchForm.ru-RU.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectNesButtonsForm.pl-PL.resx">
