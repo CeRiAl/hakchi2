@@ -360,10 +360,10 @@
     <Compile Include="FelLib\FelException.cs" />
     <Compile Include="FelLib\FelParseException.cs" />
     <Compile Include="GameGenie\GameGeniePatcherNes.cs" />
-    <Compile Include="ImageGooglerForm.cs">
+    <Compile Include="Forms\ImageGooglerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ImageGooglerForm.Designer.cs">
+    <Compile Include="Forms\ImageGooglerForm.Designer.cs">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Apps\INesMenuElement.cs" />
@@ -507,10 +507,10 @@
     <EmbeddedResource Include="Forms\GameGenieCodeForm.ro-RO.resx">
       <DependentUpon>GameGenieCodeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.hu-HU.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.ro-RO.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="images\flags\br.png" />
@@ -547,10 +547,10 @@
     <EmbeddedResource Include="Forms\GameGenieCodeForm.pt-BR.resx">
       <DependentUpon>GameGenieCodeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.ja-JP.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.pt-BR.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.hu-HU.resx">
@@ -857,73 +857,73 @@
     <EmbeddedResource Include="Forms\GameGenieCodeForm.zh-TW.resx">
       <DependentUpon>GameGenieCodeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.bg-BG.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.ca-ES.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.da-DK.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.de-DE.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.el-GR.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.en-GB.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.es-AR.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.es-ES.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.fi-FI.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.fr-FR.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.id-ID.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.it-IT.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.nl.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.nl.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.pl-PL.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.pt-PT.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.ru-RU.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.sk-SK.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.sv-SE.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.uk-UA.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.zh-CHS.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.zh-CHT.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImageGooglerForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\ImageGooglerForm.zh-TW.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ImagesForm.resx">
