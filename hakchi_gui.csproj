@@ -483,10 +483,10 @@
     <Compile Include="Forms\WaitingFelForm.Designer.cs">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="WorkerForm.cs">
+    <Compile Include="Forms\WorkerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WorkerForm.Designer.cs">
+    <Compile Include="Forms\WorkerForm.Designer.cs">
       <DependentUpon>WorkerForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\FoldersManagerForm.hu-HU.resx">
@@ -1669,7 +1669,7 @@
     <EmbeddedResource Include="Forms\WaitingFelForm.zh-TW.resx">
       <DependentUpon>WaitingFelForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WorkerForm.resx">
+    <EmbeddedResource Include="Forms\WorkerForm.resx">
       <DependentUpon>WorkerForm.cs</DependentUpon>
     </EmbeddedResource>
     <Content Include="art\README.txt">
