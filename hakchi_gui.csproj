@@ -149,10 +149,10 @@
     <Compile Include="SelectConsoleDialog.Designer.cs">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="FileBrowserForm.cs">
+    <Compile Include="Forms\FileBrowserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FileBrowserForm.Designer.cs">
+    <Compile Include="Forms\FileBrowserForm.Designer.cs">
       <DependentUpon>FileBrowserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FtpServer\NesMiniFileSystemHandler.cs" />
@@ -656,7 +656,7 @@
     <EmbeddedResource Include="SelectConsoleDialog.zh-TW.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FileBrowserForm.resx">
+    <EmbeddedResource Include="Forms\FileBrowserForm.resx">
       <DependentUpon>FileBrowserForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FoldersManagerForm.bg-BG.resx">
