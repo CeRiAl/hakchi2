@@ -394,10 +394,10 @@
     <Compile Include="SelectSnesButtonsForm.Designer.cs">
       <DependentUpon>SelectSnesButtonsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectNesButtonsForm.cs">
+    <Compile Include="Forms\SelectNesButtonsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectNesButtonsForm.Designer.cs">
+    <Compile Include="Forms\SelectNesButtonsForm.Designer.cs">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SelectIconForm.cs">
@@ -1180,16 +1180,16 @@
     <EmbeddedResource Include="Forms\SelectIconForm.ro-RO.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.hu-HU.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.ja-JP.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.pt-BR.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.ro-RO.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectSnesButtonsForm.bg-BG.resx">
@@ -1273,64 +1273,64 @@
     <EmbeddedResource Include="SelectSnesButtonsForm.zh-TW.resx">
       <DependentUpon>SelectSnesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.bg-BG.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.ca-ES.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.da-DK.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.de-DE.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.el-GR.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.en-GB.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.es-AR.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.es-ES.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.fi-FI.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.fr-FR.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.id-ID.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.it-IT.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.nl.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.nl.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.pt-PT.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.sk-SK.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.sv-SE.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.uk-UA.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.zh-CHS.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.zh-CHT.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.zh-TW.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SelectFileForm.bg-BG.resx">
@@ -1465,13 +1465,13 @@
     <EmbeddedResource Include="Forms\SearchForm.ru-RU.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.pl-PL.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectNesButtonsForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\SelectNesButtonsForm.ru-RU.resx">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SelectFileForm.pl-PL.resx">
