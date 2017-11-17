@@ -135,10 +135,10 @@
     <Compile Include="Apps\SmsGame.cs" />
     <Compile Include="Apps\SnesGame.cs" />
     <Compile Include="Apps\NesUGame.cs" />
-    <Compile Include="Clovershell\ClovershellConnection.cs" />
-    <Compile Include="Clovershell\ClovershellException.cs" />
-    <Compile Include="Clovershell\ExecConnection.cs" />
-    <Compile Include="Clovershell\ShellConnection.cs" />
+    <Compile Include="Lib\Clovershell\ClovershellConnection.cs" />
+    <Compile Include="Lib\Clovershell\ClovershellException.cs" />
+    <Compile Include="Lib\Clovershell\ExecConnection.cs" />
+    <Compile Include="Lib\Clovershell\ShellConnection.cs" />
     <Compile Include="ConfigIni.cs" />
     <Compile Include="Lib\GameGenie\GameGenieFormatException.cs" />
     <Compile Include="Lib\GameGenie\GameGenieNotFoundException.cs" />
