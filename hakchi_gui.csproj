@@ -155,15 +155,15 @@
     <Compile Include="Forms\FileBrowserForm.Designer.cs">
       <DependentUpon>FileBrowserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FtpServer\NesMiniFileSystemHandler.cs" />
-    <Compile Include="FtpServer\NesMiniAuthHandler.cs" />
-    <Compile Include="FtpServer\DebugLogHandler.cs" />
-    <Compile Include="FtpServer\FileSystemHelper.cs" />
-    <Compile Include="FtpServer\IAuthHandler.cs" />
-    <Compile Include="FtpServer\IFileSystemHandler.cs" />
-    <Compile Include="FtpServer\ILogHandler.cs" />
-    <Compile Include="FtpServer\Server.cs" />
-    <Compile Include="FtpServer\Session.cs" />
+    <Compile Include="Lib\FtpServer\NesMiniFileSystemHandler.cs" />
+    <Compile Include="Lib\FtpServer\NesMiniAuthHandler.cs" />
+    <Compile Include="Lib\FtpServer\DebugLogHandler.cs" />
+    <Compile Include="Lib\FtpServer\FileSystemHelper.cs" />
+    <Compile Include="Lib\FtpServer\IAuthHandler.cs" />
+    <Compile Include="Lib\FtpServer\IFileSystemHandler.cs" />
+    <Compile Include="Lib\FtpServer\ILogHandler.cs" />
+    <Compile Include="Lib\FtpServer\Server.cs" />
+    <Compile Include="Lib\FtpServer\Session.cs" />
     <Compile Include="Forms\GameGenieCodeAddModForm.cs">
       <SubType>Form</SubType>
     </Compile>
