@@ -143,10 +143,10 @@
     <Compile Include="GameGenie\GameGenieFormatException.cs" />
     <Compile Include="GameGenie\GameGenieNotFoundException.cs" />
     <Compile Include="GameGenie\GameGeniePatcherSnes.cs" />
-    <Compile Include="SelectConsoleDialog.cs">
+    <Compile Include="Forms\SelectConsoleDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectConsoleDialog.Designer.cs">
+    <Compile Include="Forms\SelectConsoleDialog.Designer.cs">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FileBrowserForm.cs">
@@ -581,79 +581,79 @@
     <EmbeddedResource Include="Forms\SearchForm.pt-BR.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.bg-BG.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.bg-BG.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.ca-ES.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.ca-ES.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.da-DK.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.da-DK.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.de-DE.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.de-DE.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.el-GR.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.el-GR.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.en-GB.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.en-GB.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.es-AR.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.es-AR.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.es-ES.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.es-ES.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.fi-FI.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.fi-FI.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.fr-FR.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.fr-FR.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.id-ID.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.id-ID.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.it-IT.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.it-IT.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.ja-JP.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.ja-JP.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.nl.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.nl.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.pl-PL.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.pl-PL.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.pt-BR.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.pt-BR.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.pt-PT.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.pt-PT.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.ru-RU.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.ru-RU.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.sk-SK.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.sk-SK.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.sv-SE.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.sv-SE.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.uk-UA.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.uk-UA.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.zh-CHS.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.zh-CHT.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectConsoleDialog.zh-TW.resx">
+    <EmbeddedResource Include="Forms\SelectConsoleDialog.zh-TW.resx">
       <DependentUpon>SelectConsoleDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FileBrowserForm.resx">
