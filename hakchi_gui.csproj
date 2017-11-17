@@ -400,10 +400,10 @@
     <Compile Include="SelectNesButtonsForm.Designer.cs">
       <DependentUpon>SelectNesButtonsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectIconForm.cs">
+    <Compile Include="Forms\SelectIconForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectIconForm.Designer.cs">
+    <Compile Include="Forms\SelectIconForm.Designer.cs">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SelectFileForm.cs">
@@ -1168,16 +1168,16 @@
     <EmbeddedResource Include="Forms\SelectFileForm.ro-RO.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.hu-HU.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.hu-HU.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.ja-JP.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.pt-BR.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.pt-BR.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.ro-RO.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.ro-RO.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectNesButtonsForm.hu-HU.resx">
@@ -1393,64 +1393,64 @@
     <EmbeddedResource Include="Forms\SelectFileForm.zh-TW.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.bg-BG.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.bg-BG.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.ca-ES.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.ca-ES.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.da-DK.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.da-DK.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.de-DE.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.de-DE.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.el-GR.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.el-GR.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.en-GB.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.en-GB.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.es-AR.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.es-AR.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.es-ES.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.es-ES.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.fi-FI.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.fi-FI.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.fr-FR.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.fr-FR.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.id-ID.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.id-ID.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.it-IT.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.it-IT.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.nl.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.nl.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.pt-PT.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.pt-PT.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.sk-SK.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.sk-SK.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.sv-SE.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.sv-SE.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.uk-UA.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.uk-UA.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.zh-CHS.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.zh-CHS.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.zh-CHT.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.zh-CHT.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.zh-TW.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.zh-TW.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectModsForm.resx">
@@ -1477,10 +1477,10 @@
     <EmbeddedResource Include="Forms\SelectFileForm.pl-PL.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.pl-PL.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.pl-PL.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SelectFileForm.resx">
@@ -1489,7 +1489,7 @@
     <EmbeddedResource Include="Forms\SelectFileForm.ru-RU.resx">
       <DependentUpon>SelectFileForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectIconForm.ru-RU.resx">
+    <EmbeddedResource Include="Forms\SelectIconForm.ru-RU.resx">
       <DependentUpon>SelectIconForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SnesPresetEditor.resx">
