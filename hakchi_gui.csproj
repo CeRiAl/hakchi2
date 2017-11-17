@@ -113,10 +113,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDeploymentWrapper.cs" />
-    <Compile Include="AboutBox.cs">
+    <Compile Include="Forms\AboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutBox.Designer.cs">
+    <Compile Include="Forms\AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Apps\AppTypeCollection.cs" />
@@ -526,7 +526,7 @@
     <Content Include="user_mods\snes_custom_filters.hmod\readme.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <EmbeddedResource Include="AboutBox.resx">
+    <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FoldersManagerForm.ja-JP.resx">
