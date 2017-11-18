@@ -2063,9 +2063,6 @@
     <Content Include="data\nescarts.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="driver\nesmini_driver.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="folder_images\2600.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -2483,7 +2480,7 @@
   <PropertyGroup>
     <BuildDependsOn>$(BuildDependsOn);CopyAssetFilesToOutputDirectory;MoveLanguageResourceFiles;</BuildDependsOn>
     <AssetsFolder>Assets\</AssetsFolder>
-    <ExcludeFilter></ExcludeFilter>
+    <ExcludeFilter>$(AssetsFolder)driver\source\**\*.*;</ExcludeFilter>
   </PropertyGroup>
   <Target Name="CopyAssetFilesToOutputDirectory">
     <ItemGroup>
