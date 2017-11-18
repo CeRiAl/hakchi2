@@ -2480,16 +2480,17 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
   <PropertyGroup>
-    <BuildDependsOn>$(BuildDependsOn);MoveLanguageResourceFiles;</BuildDependsOn>
+    <BuildDependsOn>$(BuildDependsOn);CopyAssetFilesToOutputDirectory;MoveLanguageResourceFiles;</BuildDependsOn>
+    <AssetsFolder>Assets\</AssetsFolder>
+    <ExcludeFilter></ExcludeFilter>
   </PropertyGroup>
+  <Target Name="CopyAssetFilesToOutputDirectory">
+    <ItemGroup>
+      <AssetFiles Include="$(AssetsFolder)**\*.*;" Exclude="$(ExcludeFilter)" />
+    </ItemGroup>
+    <Copy SourceFiles="@(AssetFiles)" DestinationFolder="$(OutDir)%(RecursiveDir)" SkipUnchangedFiles="true" />
+  </Target>
   <Target Name="MoveLanguageResourceFiles">
     <ItemGroup>
       <LanguageResourceFiles Include="$(OutDir)**\hakchi.resources.dll;" Exclude="$(OutDir)languages\**\*.*" />
