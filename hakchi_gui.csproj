@@ -507,12 +507,6 @@
     <EmbeddedResource Include="images\flags\hu.png" />
     <EmbeddedResource Include="images\flags\jp.png" />
     <EmbeddedResource Include="images\flags\ro.png" />
-    <Content Include="user_mods\extra_space.hmod\readme.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\snes_custom_filters.hmod\readme.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -1684,62 +1678,8 @@
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="user_mods\music_hack.hmod\install">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\music_hack.hmod\pb223_music_hack">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\music_hack.hmod\uninstall">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\install">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\password.raw.gz">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\password_fail.raw.gz">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\password_ok.raw.gz">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\S810password">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\uninstall">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\remove_thumbnails.hmod\install">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\remove_thumbnails.hmod\uninstall">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="cluster_cert.pfx" />
     <None Include="Properties\app.manifest" />
-    <Content Include="user_mods\snes_custom_filters.hmod\canoe-custom-filters">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\snes_custom_filters.hmod\install">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\snes_custom_filters.hmod\p8030_snes_filters">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\snes_custom_filters.hmod\uninstall">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\extra_space.hmod\etc\preinit.d\p7110_extra_space">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\extra_space.hmod\install">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\extra_space.hmod\uninstall">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="images\2600_sm.png" />
@@ -1797,21 +1737,6 @@
     <EmbeddedResource Include="images\snes-eu-jp_sm_tr.png" />
     <EmbeddedResource Include="images\snes-us_sm.png" />
     <EmbeddedResource Include="images\snes-us_sm_tr.png" />
-    <Content Include="user_mods\music_hack.hmod\music.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\music_hack.hmod\readme.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\password.hmod\readme.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\README.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="user_mods\remove_thumbnails.hmod\readme.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="icon.ico" />
     <EmbeddedResource Include="images\blank_fds.png" />
     <EmbeddedResource Include="images\blank_jp.png" />
