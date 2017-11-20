@@ -60,7 +60,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
@@ -503,10 +503,10 @@
     <EmbeddedResource Include="Forms\ImageGooglerForm.ro-RO.resx">
       <DependentUpon>ImageGooglerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="images\flags\br.png" />
-    <EmbeddedResource Include="images\flags\hu.png" />
-    <EmbeddedResource Include="images\flags\jp.png" />
-    <EmbeddedResource Include="images\flags\ro.png" />
+    <EmbeddedResource Include="Resources\images\flags\br.png" />
+    <EmbeddedResource Include="Resources\images\flags\hu.png" />
+    <EmbeddedResource Include="Resources\images\flags\jp.png" />
+    <EmbeddedResource Include="Resources\images\flags\ro.png" />
     <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -1653,28 +1653,28 @@
     <EmbeddedResource Include="Forms\WorkerForm.resx">
       <DependentUpon>WorkerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="images\flags\ar.png" />
-    <EmbeddedResource Include="images\flags\bg.png" />
-    <EmbeddedResource Include="images\flags\de.png" />
-    <EmbeddedResource Include="images\flags\es.png" />
-    <EmbeddedResource Include="images\flags\fr.png" />
-    <EmbeddedResource Include="images\flags\gr.png" />
-    <EmbeddedResource Include="images\flags\it.png" />
-    <EmbeddedResource Include="images\flags\nl.png" />
-    <EmbeddedResource Include="images\flags\pl.png" />
-    <EmbeddedResource Include="images\flags\pt.png" />
-    <EmbeddedResource Include="images\flags\ru.png" />
-    <EmbeddedResource Include="images\flags\se.png" />
-    <EmbeddedResource Include="images\flags\sk.png" />
-    <EmbeddedResource Include="images\flags\us.png" />
-    <EmbeddedResource Include="images\flags\fi.png" />
-    <EmbeddedResource Include="images\flags\id.png" />
-    <EmbeddedResource Include="images\flags\gb.png" />
-    <EmbeddedResource Include="images\flags\cn.png" />
-    <EmbeddedResource Include="images\flags\tw.png" />
-    <EmbeddedResource Include="images\flags\ua.png" />
-    <EmbeddedResource Include="images\flags\dk.png" />
-    <EmbeddedResource Include="images\gamepad_snes.png" />
+    <EmbeddedResource Include="Resources\images\flags\ar.png" />
+    <EmbeddedResource Include="Resources\images\flags\bg.png" />
+    <EmbeddedResource Include="Resources\images\flags\de.png" />
+    <EmbeddedResource Include="Resources\images\flags\es.png" />
+    <EmbeddedResource Include="Resources\images\flags\fr.png" />
+    <EmbeddedResource Include="Resources\images\flags\gr.png" />
+    <EmbeddedResource Include="Resources\images\flags\it.png" />
+    <EmbeddedResource Include="Resources\images\flags\nl.png" />
+    <EmbeddedResource Include="Resources\images\flags\pl.png" />
+    <EmbeddedResource Include="Resources\images\flags\pt.png" />
+    <EmbeddedResource Include="Resources\images\flags\ru.png" />
+    <EmbeddedResource Include="Resources\images\flags\se.png" />
+    <EmbeddedResource Include="Resources\images\flags\sk.png" />
+    <EmbeddedResource Include="Resources\images\flags\us.png" />
+    <EmbeddedResource Include="Resources\images\flags\fi.png" />
+    <EmbeddedResource Include="Resources\images\flags\id.png" />
+    <EmbeddedResource Include="Resources\images\flags\gb.png" />
+    <EmbeddedResource Include="Resources\images\flags\cn.png" />
+    <EmbeddedResource Include="Resources\images\flags\tw.png" />
+    <EmbeddedResource Include="Resources\images\flags\ua.png" />
+    <EmbeddedResource Include="Resources\images\flags\dk.png" />
+    <EmbeddedResource Include="Resources\images\gamepad_snes.png" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1682,68 +1682,68 @@
     <None Include="Properties\app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="images\2600_sm.png" />
-    <EmbeddedResource Include="images\2600_sm_tr.png" />
-    <EmbeddedResource Include="images\32x_sm.png" />
-    <EmbeddedResource Include="images\32x_sm_tr.png" />
-    <EmbeddedResource Include="images\app_sm.png" />
-    <EmbeddedResource Include="images\app_sm_tr.png" />
-    <EmbeddedResource Include="images\arcade_sm.png" />
-    <EmbeddedResource Include="images\arcade_sm_tr.png" />
-    <EmbeddedResource Include="images\blank_2600.png" />
-    <EmbeddedResource Include="images\blank_32x.png" />
-    <EmbeddedResource Include="images\blank_app.png" />
-    <EmbeddedResource Include="images\blank_arcade.png" />
-    <EmbeddedResource Include="images\blank_gb.png" />
-    <EmbeddedResource Include="images\blank_gba.png" />
-    <EmbeddedResource Include="images\blank_gbc.png" />
-    <EmbeddedResource Include="images\blank_genesis.png" />
-    <EmbeddedResource Include="images\blank_gg.png" />
-    <EmbeddedResource Include="images\blank_n64.png" />
-    <EmbeddedResource Include="images\blank_neogeo.png" />
-    <EmbeddedResource Include="images\blank_nes.png" />
-    <EmbeddedResource Include="images\blank_pce.png" />
-    <EmbeddedResource Include="images\blank_sms.png" />
-    <EmbeddedResource Include="images\blank_snes-eu-jp.png" />
-    <EmbeddedResource Include="images\blank_snes-us.png" />
-    <EmbeddedResource Include="images\gba_sm.png" />
-    <EmbeddedResource Include="images\gba_sm_tr.png" />
-    <EmbeddedResource Include="images\gbc_sm.png" />
-    <EmbeddedResource Include="images\gbc_sm_tr.png" />
-    <EmbeddedResource Include="images\gb_sm.png" />
-    <EmbeddedResource Include="images\gb_sm_tr.png" />
-    <EmbeddedResource Include="images\genesis_sm.png" />
-    <EmbeddedResource Include="images\genesis_sm_tr.png" />
-    <EmbeddedResource Include="images\gg_sm.png" />
-    <EmbeddedResource Include="images\gg_sm_tr.png" />
-    <EmbeddedResource Include="images\green.png" />
-    <EmbeddedResource Include="images\n64_sm.png" />
-    <EmbeddedResource Include="images\n64_sm_tr.png" />
-    <EmbeddedResource Include="images\neogeo_sm.png" />
-    <EmbeddedResource Include="images\neogeo_sm_tr.png" />
-    <EmbeddedResource Include="images\nes_sm_tr.png" />
-    <EmbeddedResource Include="images\famicom_sm.png" />
-    <EmbeddedResource Include="images\famicom_sm_tr.png" />
-    <EmbeddedResource Include="images\fds_sm.png" />
-    <EmbeddedResource Include="images\fds_sm_tr.png" />
-    <EmbeddedResource Include="images\folder_sm_tr.png" />
-    <EmbeddedResource Include="images\original_sm_tr.png" />
-    <EmbeddedResource Include="images\pce_sm.png" />
-    <EmbeddedResource Include="images\pce_sm_tr.png" />
-    <EmbeddedResource Include="images\red.png" />
-    <EmbeddedResource Include="images\sms_sm.png" />
-    <EmbeddedResource Include="images\sms_sm_tr.png" />
-    <EmbeddedResource Include="images\snes-eu-jp_sm.png" />
-    <EmbeddedResource Include="images\snes-eu-jp_sm_tr.png" />
-    <EmbeddedResource Include="images\snes-us_sm.png" />
-    <EmbeddedResource Include="images\snes-us_sm_tr.png" />
-    <None Include="icon.ico" />
-    <EmbeddedResource Include="images\blank_fds.png" />
-    <EmbeddedResource Include="images\blank_jp.png" />
-    <EmbeddedResource Include="images\nes_sm.png" />
-    <EmbeddedResource Include="images\folder_sm.png" />
-    <EmbeddedResource Include="images\gamepad.png" />
-    <EmbeddedResource Include="images\original_sm.png" />
+    <EmbeddedResource Include="Resources\images\2600_sm.png" />
+    <EmbeddedResource Include="Resources\images\2600_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\32x_sm.png" />
+    <EmbeddedResource Include="Resources\images\32x_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\app_sm.png" />
+    <EmbeddedResource Include="Resources\images\app_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\arcade_sm.png" />
+    <EmbeddedResource Include="Resources\images\arcade_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\blank_2600.png" />
+    <EmbeddedResource Include="Resources\images\blank_32x.png" />
+    <EmbeddedResource Include="Resources\images\blank_app.png" />
+    <EmbeddedResource Include="Resources\images\blank_arcade.png" />
+    <EmbeddedResource Include="Resources\images\blank_gb.png" />
+    <EmbeddedResource Include="Resources\images\blank_gba.png" />
+    <EmbeddedResource Include="Resources\images\blank_gbc.png" />
+    <EmbeddedResource Include="Resources\images\blank_genesis.png" />
+    <EmbeddedResource Include="Resources\images\blank_gg.png" />
+    <EmbeddedResource Include="Resources\images\blank_n64.png" />
+    <EmbeddedResource Include="Resources\images\blank_neogeo.png" />
+    <EmbeddedResource Include="Resources\images\blank_nes.png" />
+    <EmbeddedResource Include="Resources\images\blank_pce.png" />
+    <EmbeddedResource Include="Resources\images\blank_sms.png" />
+    <EmbeddedResource Include="Resources\images\blank_snes-eu-jp.png" />
+    <EmbeddedResource Include="Resources\images\blank_snes-us.png" />
+    <EmbeddedResource Include="Resources\images\gba_sm.png" />
+    <EmbeddedResource Include="Resources\images\gba_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\gbc_sm.png" />
+    <EmbeddedResource Include="Resources\images\gbc_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\gb_sm.png" />
+    <EmbeddedResource Include="Resources\images\gb_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\genesis_sm.png" />
+    <EmbeddedResource Include="Resources\images\genesis_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\gg_sm.png" />
+    <EmbeddedResource Include="Resources\images\gg_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\green.png" />
+    <EmbeddedResource Include="Resources\images\n64_sm.png" />
+    <EmbeddedResource Include="Resources\images\n64_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\neogeo_sm.png" />
+    <EmbeddedResource Include="Resources\images\neogeo_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\nes_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\famicom_sm.png" />
+    <EmbeddedResource Include="Resources\images\famicom_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\fds_sm.png" />
+    <EmbeddedResource Include="Resources\images\fds_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\folder_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\original_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\pce_sm.png" />
+    <EmbeddedResource Include="Resources\images\pce_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\red.png" />
+    <EmbeddedResource Include="Resources\images\sms_sm.png" />
+    <EmbeddedResource Include="Resources\images\sms_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\snes-eu-jp_sm.png" />
+    <EmbeddedResource Include="Resources\images\snes-eu-jp_sm_tr.png" />
+    <EmbeddedResource Include="Resources\images\snes-us_sm.png" />
+    <EmbeddedResource Include="Resources\images\snes-us_sm_tr.png" />
+    <None Include="Resources\icon.ico" />
+    <EmbeddedResource Include="Resources\images\blank_fds.png" />
+    <EmbeddedResource Include="Resources\images\blank_jp.png" />
+    <EmbeddedResource Include="Resources\images\nes_sm.png" />
+    <EmbeddedResource Include="Resources\images\folder_sm.png" />
+    <EmbeddedResource Include="Resources\images\gamepad.png" />
+    <EmbeddedResource Include="Resources\images\original_sm.png" />
     <Content Include="Lib\SevenZip\gpl.txt" />
     <Content Include="Lib\SevenZip\lgpl.txt" />
   </ItemGroup>
