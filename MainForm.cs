@@ -1,7 +1,6 @@
 ﻿using com.clusterrr.clovershell;
 using com.clusterrr.Famicom;
 using com.clusterrr.hakchi_gui.Properties;
-using SevenZip;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -1486,7 +1485,6 @@ namespace com.clusterrr.hakchi_gui
                 var ext = Path.GetExtension(files[0]).ToLower();
                 if (ext == ".7z" || ext == ".zip" || ext == ".rar")
                 {
-                    SevenZipExtractor.SetLibraryPath(Path.Combine(Program.BaseDirectoryInternal, IntPtr.Size == 8 ? @"tools\7z64.dll" : @"tools\7z.dll"));
                     using (var szExtractor = new SevenZipExtractor(files[0]))
                     {
                         foreach (var f in szExtractor.ArchiveFileNames)

@@ -1,5 +1,4 @@
 ﻿using com.clusterrr.hakchi_gui.Properties;
-using SevenZip;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -304,7 +303,6 @@ namespace com.clusterrr.hakchi_gui
                 {
                     clovershell.Execute("cd /var/lib/clover/profiles/0 && tar -cz " + code, null, save, null, 10000, true);
                     save.Seek(0, SeekOrigin.Begin);
-                    SevenZipExtractor.SetLibraryPath(Path.Combine(Program.BaseDirectoryInternal, IntPtr.Size == 8 ? @"tools\7z64.dll" : @"tools\7z.dll"));
                     using (var szExtractor = new SevenZipExtractor(save))
                     {
                         var tar = new MemoryStream();
