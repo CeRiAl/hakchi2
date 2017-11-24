@@ -2,7 +2,6 @@
 using com.clusterrr.FelLib;
 using com.clusterrr.hakchi_gui.Properties;
 using com.clusterrr.util;
-using SevenZip;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -1454,7 +1453,6 @@ namespace com.clusterrr.hakchi_gui
                     string tmp = null;
                     if (ext == ".7z" || ext == ".zip" || ext == ".rar")
                     {
-                        SevenZipExtractor.SetLibraryPath(Path.Combine(baseDirectoryInternal, IntPtr.Size == 8 ? @"tools\7z64.dll" : @"tools\7z.dll"));
                         using (var szExtractor = new SevenZipExtractor(sourceFileName))
                         {
                             var filesInArchive = new List<string>();

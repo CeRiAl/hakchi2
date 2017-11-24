@@ -1,5 +1,4 @@
 ﻿using com.clusterrr.hakchi_gui.Properties;
-using SevenZip;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -728,7 +727,6 @@ namespace com.clusterrr.hakchi_gui
 
         public void Compress()
         {
-            SevenZipExtractor.SetLibraryPath(System.IO.Path.Combine(Program.BaseDirectoryInternal, IntPtr.Size == 8 ? @"tools\7z64.dll" : @"tools\7z.dll"));
             foreach (var filename in CompressPossible())
             {
                 var archName = filename + ".7z";
@@ -743,7 +741,6 @@ namespace com.clusterrr.hakchi_gui
 
         public void Decompress()
         {
-            SevenZipExtractor.SetLibraryPath(System.IO.Path.Combine(Program.BaseDirectoryInternal, IntPtr.Size == 8 ? @"tools\7z64.dll" : @"tools\7z.dll"));
             foreach (var filename in DecompressPossible())
             {
                 using (var szExtractor = new SevenZipExtractor(filename))
