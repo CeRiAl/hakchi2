@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FTPToolStripMenuItem.Text">
-    <value>Server FTP pada ftp://root:clover@127.0.0.1:1021</value>
+    <value>Server FTP pada ftp://root:clover@127.0.0.1:10021</value>
   </data>
   <data name="aboutToolStripMenuItem.Text">
     <value>Tentang...</value>
@@ -311,7 +311,7 @@
     <value>&amp;Penataan</value>
   </data>
   <data name="shellToolStripMenuItem.Text">
-    <value>Server Telnet pada Telnet: //127.0.0.1:1023 (login: root)</value>
+    <value>Server Telnet pada Telnet: //127.0.0.1:10023 (login: root)</value>
   </data>
   <data name="superFamicomMiniToolStripMenuItem.Text">
     <value>Super Famicom (Jepang)</value>

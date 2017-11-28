@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FTPToolStripMenuItem.Text">
-    <value>Διακομιστής FTP στο ftp://root:clover@127.0.0.1:1021</value>
+    <value>Διακομιστής FTP στο ftp://root:clover@127.0.0.1:10021</value>
   </data>
   <data name="aboutToolStripMenuItem.Text">
     <value>Σχετικά με…</value>
@@ -299,7 +299,7 @@
     <value>&amp;Ρυθμίσεις</value>
   </data>
   <data name="shellToolStripMenuItem.Text">
-    <value>Διακομιστής κελύφους στο telnet://127.0.0.1:1023 (login:root)</value>
+    <value>Διακομιστής κελύφους στο telnet://127.0.0.1:10023 (login:root)</value>
   </data>
   <data name="synchronizeToolStripMenuItem.Text">
     <value>Συγχρονισμός</value>

@@ -166,7 +166,7 @@ namespace com.clusterrr.hakchi_gui
             ftpServer.AuthHandler = new mooftpserv.NesMiniAuthHandler();
             ftpServer.FileSystemHandler = new mooftpserv.NesMiniFileSystemHandler(Clovershell);
             ftpServer.LogHandler = new mooftpserv.DebugLogHandler();
-            ftpServer.LocalPort = 1021;
+            ftpServer.LocalPort = 10021;
 
             if (ConfigIni.FtpServer)
                 FTPToolStripMenuItem_Click(null, null);
@@ -1702,7 +1702,7 @@ namespace com.clusterrr.hakchi_gui
                 {
                     StartInfo = new ProcessStartInfo()
                     {
-                        FileName = "ftp://root:clover@127.0.0.1:1021/",
+                        FileName = "ftp://root:clover@127.0.0.1:10021/",
                     }
                 }.Start();
             }
@@ -1721,7 +1721,7 @@ namespace com.clusterrr.hakchi_gui
                 {
                     StartInfo = new ProcessStartInfo()
                     {
-                        FileName = "telnet://127.0.0.1:1023",
+                        FileName = "telnet://127.0.0.1:10023",
                     }
                 }.Start();
             }
