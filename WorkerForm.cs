@@ -329,8 +329,8 @@ namespace com.clusterrr.hakchi_gui
                         DeleteGames();
                         break;
                 }
-                if (DialogResult == DialogResult.None)
-                    DialogResult = DialogResult.OK;
+                // if (DialogResult == DialogResult.None)
+                //    DialogResult = DialogResult.OK;
             }
             catch (ThreadAbortException) { }
             catch (Exception ex)
@@ -349,6 +349,8 @@ namespace com.clusterrr.hakchi_gui
             finally
             {
                 thread = null;
+                if (DialogResult == DialogResult.None)	//
+                    DialogResult = DialogResult.OK;     //
                 if (fel != null)
                 {
                     fel.Close();
