@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FTPToolStripMenuItem.Text">
-    <value>在ftp://root:clover@127.0.0.1:1021上运行FTP服务器</value>
+    <value>在ftp://root:clover@127.0.0.1:10021上运行FTP服务器</value>
   </data>
   <data name="aboutToolStripMenuItem.Text">
     <value>关于...</value>
@@ -311,7 +311,7 @@
     <value>设置(&amp;S)</value>
   </data>
   <data name="shellToolStripMenuItem.Text">
-    <value>在Telnet://127.0.0.1:1023 (login:root)上运行Telnet 服务器</value>
+    <value>在Telnet://127.0.0.1:10023 (login:root)上运行Telnet 服务器</value>
   </data>
   <data name="superFamicomMiniToolStripMenuItem.Text">
     <value>超任(日本)</value>

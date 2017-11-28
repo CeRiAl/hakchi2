@@ -251,7 +251,7 @@
     <value>Brug X/Y på Classic Controller som autofire A/B</value>
   </data>
   <data name="FTPToolStripMenuItem.Text">
-    <value>FTP server on ftp://root:clover@127.0.0.1:1021</value>
+    <value>FTP server on ftp://root:clover@127.0.0.1:10021</value>
   </data>
   <data name="checkBoxCompressed.Text">
     <value>Compress</value>
@@ -332,7 +332,7 @@
     <value>Save-State Manager</value>
   </data>
   <data name="shellToolStripMenuItem.Text">
-    <value>Telnet server on telnet://127.0.0.1:1023 (login:root)</value>
+    <value>Telnet server on telnet://127.0.0.1:10023 (login:root)</value>
   </data>
   <data name="superFamicomMiniToolStripMenuItem.Text">
     <value>Super Famicom (Japan)</value>

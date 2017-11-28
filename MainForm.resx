@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -546,7 +546,7 @@
     <value>331, 22</value>
   </data>
   <data name="FTPToolStripMenuItem.Text" xml:space="preserve">
-    <value>FTP server on ftp://root:clover@127.0.0.1:1021</value>
+    <value>FTP server on ftp://root:clover@127.0.0.1:10021</value>
   </data>
   <data name="openFTPInExplorerToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -564,7 +564,7 @@
     <value>331, 22</value>
   </data>
   <data name="shellToolStripMenuItem.Text" xml:space="preserve">
-    <value>Shell server on telnet://127.0.0.1:1023 (login:root)</value>
+    <value>Shell server on telnet://127.0.0.1:10023 (login:root)</value>
   </data>
   <data name="openTelnetToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>

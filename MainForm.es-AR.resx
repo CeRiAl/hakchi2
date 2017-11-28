@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FTPToolStripMenuItem.Text">
-    <value>Servidor FTP en ftp://root:clover@127.0.0.1:1021</value>
+    <value>Servidor FTP en ftp://root:clover@127.0.0.1:10021</value>
   </data>
   <data name="aboutToolStripMenuItem.Text">
     <value>Acerca de hakchi2</value>
@@ -299,7 +299,7 @@
     <value>&amp;Configuración</value>
   </data>
   <data name="shellToolStripMenuItem.Text">
-    <value>Servidor shell en telnet://127.0.0.1:1023 (login:root)</value>
+    <value>Servidor shell en telnet://127.0.0.1:10023 (login:root)</value>
   </data>
   <data name="synchronizeToolStripMenuItem.Text">
     <value>Sincronizar</value>

@@ -22,7 +22,7 @@ namespace com.clusterrr.clovershell
         Thread mainThread = null;
         Thread shellListenerThread = null;
         bool online = false;
-        ushort shellPort = 1023;
+        ushort shellPort = 10023;
         Queue<ShellConnection> pendingShellConnections = new Queue<ShellConnection>();
         List<ExecConnection> pendingExecConnections = new List<ExecConnection>();
         internal ShellConnection[] shellConnections = new ShellConnection[256];
