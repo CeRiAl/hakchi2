@@ -83,6 +83,7 @@ namespace com.clusterrr.hakchi_gui
         Dictionary<MainForm.ConsoleType, string[]> correctKeys = new Dictionary<MainForm.ConsoleType, string[]>();
         const long maxCompressedsRamfsSize = 30 * 1024 * 1024;
         string selectedFile = null;
+        static readonly bool runningOnUnix = Environment.OSVersion.Platform.Equals(PlatformID.Unix);
         public NesMiniApplication[] addedApplications;
         public static int NandCTotal, NandCUsed, NandCFree, WritedGamesSize, SaveStatesSize;
         public static bool ExternalSaves = false;
@@ -130,6 +131,19 @@ namespace com.clusterrr.hakchi_gui
                 Path.Combine(modsDirectory, "hmods")
             };
             toolsDirectory = Path.Combine(baseDirectoryInternal, "tools");
+            if (!runningOnUnix)
+            {
+                toolsDirectory = Path.Combine(toolsDirectory, "windows");
+            }
+            else
+            {
+                byte[] uname;
+                if (!ExecuteTool("uname", "-sm", out uname, null, true))
+                    throw new Exception("Can't determine your operating system");
+                string output = Encoding.Default.GetString(uname);
+                string osName = output.Trim().ToLower().Replace(" ", "-");
+                toolsDirectory = Path.Combine(toolsDirectory, osName);
+            }
             kernelPatched = Path.Combine(kernelDirectory, "patched_kernel.img");
             ramdiskPatched = Path.Combine(kernelDirectory, "kernel.img-ramdisk_mod.gz");
             argumentsFilePath = Path.Combine(hakchiDirectory, "extra_args");
@@ -1205,13 +1219,13 @@ namespace com.clusterrr.hakchi_gui
             string tempKernelDump = Path.Combine(tempDirectory, "kernel.img");
             if ((kernelPath ?? KernelDumpPath) != tempKernelDump)
                 File.Copy(kernelPath ?? KernelDumpPath, tempKernelDump, true);
-            if (!ExecuteTool("unpackbootimg.exe", string.Format("-i \"{0}\" -o \"{1}\"", tempKernelDump, kernelDirectory)))
+            if (!ExecuteTool("unpackbootimg", string.Format("-i \"{0}\" -o \"{1}\"", tempKernelDump, kernelDirectory)))
                 throw new Exception("Can't unpack kernel image");
-            if (!ExecuteTool("lzop.exe", string.Format("-d \"{0}\" -o \"{1}\"",
-                Path.Combine(kernelDirectory, "kernel.img-ramdisk.gz"), initramfs_cpio)))
+            if (!ExecuteTool("lzop", string.Format("-d \"{0}\" -o \"{1}\"",
+                Path.Combine(kernelDirectory, "kernel.img-ramdisk.gz"), initramfs_cpio), null, runningOnUnix))
                 throw new Exception("Can't unpack ramdisk");
-            ExecuteTool("cpio.exe", string.Format("-imd --no-preserve-owner --quiet -I \"{0}\"",
-               @"..\initramfs.cpio"), ramfsDirectory);
+            ExecuteTool("cpio", string.Format("-imd --no-preserve-owner --quiet -I \"{0}\"",
+                Path.Combine("..", "initramfs.cpio")), ramfsDirectory, runningOnUnix);
             if (!File.Exists(Path.Combine(ramfsDirectory, "init"))) // cpio.exe fails on Windows XP for some reason. But working!
                 throw new Exception("Can't unpack ramdisk 2");
         }
@@ -1265,7 +1279,7 @@ namespace com.clusterrr.hakchi_gui
 
             // Building image
             byte[] ramdisk;
-            if (!ExecuteTool("mkbootfs.exe", string.Format("\"{0}\"", ramfsDirectory), out ramdisk))
+            if (!ExecuteTool("mkbootfs", string.Format("\"{0}\"", ramfsDirectory), out ramdisk))
                 throw new Exception("Can't repack ramdisk");
             File.WriteAllBytes(initramfs_cpioPatched, ramdisk);
             var argCmdline = File.ReadAllText(Path.Combine(kernelDirectory, "kernel.img-cmdline")).Trim();
@@ -1275,10 +1289,10 @@ namespace com.clusterrr.hakchi_gui
             var argKerneloff = File.ReadAllText(Path.Combine(kernelDirectory, "kernel.img-kerneloff")).Trim();
             var argRamdiscoff = File.ReadAllText(Path.Combine(kernelDirectory, "kernel.img-ramdiskoff")).Trim();
             var argTagsoff = File.ReadAllText(Path.Combine(kernelDirectory, "kernel.img-tagsoff")).Trim();
-            if (!ExecuteTool("lzop.exe", string.Format("--best -f -o \"{0}\" \"{1}\"",
-                ramdiskPatched, initramfs_cpioPatched)))
+            if (!ExecuteTool("lzop", string.Format("--best -f -o \"{0}\" \"{1}\"",
+                ramdiskPatched, initramfs_cpioPatched), null, runningOnUnix))
                 throw new Exception("Can't repack ramdisk 2");
-            if (!ExecuteTool("mkbootimg.exe", string.Format("--kernel \"{0}\" --ramdisk \"{1}\" --cmdline \"{2}\" --board \"{3}\" --base \"{4}\" --pagesize \"{5}\" --kernel_offset \"{6}\" --ramdisk_offset \"{7}\" --tags_offset \"{8}\" -o \"{9}\"",
+            if (!ExecuteTool("mkbootimg", string.Format("--kernel \"{0}\" --ramdisk \"{1}\" --cmdline \"{2}\" --board \"{3}\" --base \"{4}\" --pagesize \"{5}\" --kernel_offset \"{6}\" --ramdisk_offset \"{7}\" --tags_offset \"{8}\" -o \"{9}\"",
                 Path.Combine(kernelDirectory, "kernel.img-zImage"), ramdiskPatched, argCmdline, argBoard, argBase, argPagesize, argKerneloff, argRamdiscoff, argTagsoff, kernelPatched)))
                 throw new Exception("Can't rebuild kernel");
 
@@ -1381,8 +1395,8 @@ namespace com.clusterrr.hakchi_gui
         {
             var process = new Process();
             var appDirectory = baseDirectoryInternal;
-            var fileName = !external ? Path.Combine(Path.Combine(toolsDirectory, "windows"), tool) : tool;
-            process.StartInfo.FileName = fileName;
+            var fileName = !external ? Path.Combine(toolsDirectory, tool) : tool;
+            process.StartInfo.FileName = runningOnUnix ? fileName : $"{fileName}.exe";
             process.StartInfo.Arguments = args;
             if (string.IsNullOrEmpty(directory))
                 directory = appDirectory;
@@ -1394,9 +1408,9 @@ namespace com.clusterrr.hakchi_gui
             process.StartInfo.RedirectStandardInput = true;
             process.StartInfo.RedirectStandardOutput = true;
             process.StartInfo.RedirectStandardError = true;
-            Debug.WriteLine("Executing: " + fileName);
-            Debug.WriteLine("Arguments: " + args);
-            Debug.WriteLine("Directory: " + directory);
+            Debug.WriteLine("Executing: " + process.StartInfo.FileName);
+            Debug.WriteLine("Arguments: " + process.StartInfo.Arguments);
+            Debug.WriteLine("Directory: " + process.StartInfo.WorkingDirectory);
             process.Start();
             string outputStr = process.StandardOutput.ReadToEnd();
             string errorStr = process.StandardError.ReadToEnd();
