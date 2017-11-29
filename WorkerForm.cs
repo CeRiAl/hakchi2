@@ -1381,7 +1381,7 @@ namespace com.clusterrr.hakchi_gui
         {
             var process = new Process();
             var appDirectory = baseDirectoryInternal;
-            var fileName = !external ? Path.Combine(toolsDirectory, tool) : tool;
+            var fileName = !external ? Path.Combine(Path.Combine(toolsDirectory, "windows"), tool) : tool;
             process.StartInfo.FileName = fileName;
             process.StartInfo.Arguments = args;
             if (string.IsNullOrEmpty(directory))

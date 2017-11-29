@@ -2703,42 +2703,42 @@
     <Content Include="patches\README.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\7z.dll">
+    <Content Include="tools\windows\7z.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\7z64.dll">
+    <Content Include="tools\windows\7z64.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="SevenZip\gpl.txt" />
     <Content Include="SevenZip\lgpl.txt" />
-    <Content Include="tools\cpio.exe">
+    <Content Include="tools\windows\cpio.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\cyggcc_s-1.dll">
+    <Content Include="tools\windows\cyggcc_s-1.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\cygiconv-2.dll">
+    <Content Include="tools\windows\cygiconv-2.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\cygintl-8.dll">
+    <Content Include="tools\windows\cygintl-8.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\cyglzo2-2.dll">
+    <Content Include="tools\windows\cyglzo2-2.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\cygwin1.dll">
+    <Content Include="tools\windows\cygwin1.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\lzop.exe">
+    <Content Include="tools\windows\lzop.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\mkbootfs.exe">
+    <Content Include="tools\windows\mkbootfs.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\mkbootimg.exe">
+    <Content Include="tools\windows\mkbootimg.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="tools\unpackbootimg.exe">
+    <Content Include="tools\windows\unpackbootimg.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

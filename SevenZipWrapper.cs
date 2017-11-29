@@ -243,7 +243,7 @@ namespace com.clusterrr.hakchi_gui
     {
         static void SetLibraryPath()
         {
-            string dllName = IntPtr.Size == 8 ? @"tools\7z64.dll" : @"tools\7z.dll";
+            string dllName = IntPtr.Size == 8 ? @"tools\windows\7z64.dll" : @"tools\windows\7z.dll";
             SevenZip.SevenZipBase.SetLibraryPath(Path.Combine(Program.BaseDirectoryInternal, dllName));
         }
 
