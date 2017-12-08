@@ -1,4 +1,4 @@
-﻿using com.clusterrr.hakchi_gui.Properties;
+using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +14,7 @@ namespace com.clusterrr.hakchi_gui
 
         public GameGenieCodeForm(NesMiniApplication AGame)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             FGame = AGame;
             FGameGenieDataBase = new GameGenieDataBase(FGame);

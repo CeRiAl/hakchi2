@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 
 namespace com.clusterrr.hakchi_gui
@@ -9,6 +9,7 @@ namespace com.clusterrr.hakchi_gui
 
         public SearchForm(MainForm mainForm)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             this.mainForm = mainForm;
         }

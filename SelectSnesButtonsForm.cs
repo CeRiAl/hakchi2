@@ -1,4 +1,4 @@
-﻿using com.clusterrr.hakchi_gui.Properties;
+using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Windows.Forms;
 
@@ -27,6 +27,7 @@ namespace com.clusterrr.hakchi_gui
 
         public SelectSnesButtonsForm(SnesButtons buttons)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             checkBoxA.Checked = (buttons & SnesButtons.A) != 0;
             checkBoxB.Checked = (buttons & SnesButtons.B) != 0;

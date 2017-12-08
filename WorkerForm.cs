@@ -1,4 +1,4 @@
-﻿using com.clusterrr.Famicom;
+using com.clusterrr.Famicom;
 using com.clusterrr.FelLib;
 using com.clusterrr.hakchi_gui.Properties;
 using com.clusterrr.util;
@@ -108,6 +108,7 @@ namespace com.clusterrr.hakchi_gui
 
         public WorkerForm(MainForm parentForm)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             MainForm = parentForm;
             DialogResult = DialogResult.None;

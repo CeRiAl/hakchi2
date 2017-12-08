@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 
 namespace com.clusterrr.hakchi_gui
@@ -7,6 +7,7 @@ namespace com.clusterrr.hakchi_gui
     {
         public StringInputForm()
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
         }
 

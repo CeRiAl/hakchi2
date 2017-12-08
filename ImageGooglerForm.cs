@@ -1,4 +1,4 @@
-﻿using com.clusterrr.hakchi_gui.Properties;
+using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -23,6 +23,7 @@ namespace com.clusterrr.hakchi_gui
 
         public ImageGooglerForm(NesMiniApplication app)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             if (!string.IsNullOrEmpty(app.Name))
                 Text += " - " + app.Name;

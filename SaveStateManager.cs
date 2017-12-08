@@ -1,4 +1,4 @@
-﻿using com.clusterrr.hakchi_gui.Properties;
+using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,6 +20,7 @@ namespace com.clusterrr.hakchi_gui
 
         public SaveStateManager(Dictionary<string, string> gameNames)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             labelLoading.Text = Resources.PleaseWait;
             this.gameNames = gameNames;

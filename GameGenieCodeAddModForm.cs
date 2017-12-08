@@ -1,4 +1,4 @@
-﻿using com.clusterrr.Famicom;
+using com.clusterrr.Famicom;
 using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.IO;
@@ -12,6 +12,7 @@ namespace com.clusterrr.hakchi_gui
 
         public GameGenieCodeAddModForm(NesMiniApplication game)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             FGame = game;
         }

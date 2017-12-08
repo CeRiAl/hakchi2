@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +15,7 @@ namespace com.clusterrr.hakchi_gui
 
         public SelectModsForm(bool loadInstalledMods, bool allowDropMods, string[] filesToAdd = null)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             usermodsDirectory = Path.Combine(Program.BaseDirectoryExternal, "user_mods");
             var modsList = new List<string>();

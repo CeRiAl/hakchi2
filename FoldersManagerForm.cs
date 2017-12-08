@@ -1,4 +1,4 @@
-﻿using com.clusterrr.hakchi_gui.Properties;
+using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -62,6 +62,7 @@ namespace com.clusterrr.hakchi_gui
         {
             try
             {
+                Shown += FormStylesMono.AdjustStyles;
                 InitializeComponent();
                 gamesCollection = nesMenuCollection;
                 this.mainForm = mainForm;

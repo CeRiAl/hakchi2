@@ -1,4 +1,4 @@
-﻿using com.clusterrr.clovershell;
+using com.clusterrr.clovershell;
 using com.clusterrr.Famicom;
 using com.clusterrr.hakchi_gui.Properties;
 using System;
@@ -157,6 +157,7 @@ namespace com.clusterrr.hakchi_gui
 
         public MainForm()
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             FormInitialize();
             Clovershell = new ClovershellConnection() { AutoReconnect = true, Enabled = true };
@@ -530,6 +531,7 @@ namespace com.clusterrr.hakchi_gui
                         this.InitializeComponent();
                         FormInitialize();
                         this.Invalidate(true);
+                        FormStylesMono.AdjustStyles(this);
                     };
                 if (Thread.CurrentThread.CurrentUICulture.Name.ToUpper() == langCodes[language].ToUpper())
                 {

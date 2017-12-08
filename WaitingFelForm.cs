@@ -1,4 +1,4 @@
-﻿using com.clusterrr.FelLib;
+using com.clusterrr.FelLib;
 using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections.Generic;
@@ -15,6 +15,7 @@ namespace com.clusterrr.hakchi_gui
 
         public WaitingFelForm(UInt16 vid, UInt16 pid)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             buttonDriver.Left = label6.Left + label6.Width;
             this.vid = vid;

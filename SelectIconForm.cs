@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -10,6 +10,7 @@ namespace com.clusterrr.hakchi_gui
     {
         public SelectIconForm(string selected = null)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             listBox.Items.Clear();
             var files = Directory.GetFiles(NesMenuFolder.FolderImagesDirectory, "*.png", SearchOption.AllDirectories);

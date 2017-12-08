@@ -1,4 +1,4 @@
-﻿using com.clusterrr.hakchi_gui.Properties;
+using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,6 +19,7 @@ namespace com.clusterrr.hakchi_gui
 
         public SnesPresetEditor(SnesGame game)
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             try
             {

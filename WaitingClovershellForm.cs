@@ -1,4 +1,4 @@
-﻿using com.clusterrr.FelLib;
+using com.clusterrr.FelLib;
 using com.clusterrr.hakchi_gui.Properties;
 using System;
 using System.Collections.Generic;
@@ -13,6 +13,7 @@ namespace com.clusterrr.hakchi_gui
     {
         public WaitingClovershellForm()
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             buttonDriver.Left = label6.Left + label6.Width;
             timer.Enabled = true;

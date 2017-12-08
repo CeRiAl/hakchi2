@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Windows.Forms;
 
@@ -8,6 +8,7 @@ namespace com.clusterrr.hakchi_gui
     {
         public AboutBox()
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +13,7 @@ namespace com.clusterrr.hakchi_gui
     {
         public ImagesForm()
         {
+            Shown += FormStylesMono.AdjustStyles;
             InitializeComponent();
             Left = Cursor.Position.X + 5;
             Top = Cursor.Position.Y + 5;
