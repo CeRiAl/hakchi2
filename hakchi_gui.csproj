@@ -2375,6 +2375,7 @@
     <Content Include="user_mods\extra_space.hmod\uninstall">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Compile Include="FormStylesMono.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\GameGenieDB.xml">
