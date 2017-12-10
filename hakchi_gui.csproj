@@ -2795,7 +2795,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>echo. &gt; NUL 2&gt; "$(ProjectDir)commit.txt"
+    <PreBuildEvent Condition=" '$(OS)' != 'Unix' ">echo. &gt; NUL 2&gt; "$(ProjectDir)commit.txt"
 
 git --version &amp;&amp; (
   for /f %25%25i in ('git rev-parse --short HEAD') do (
@@ -2807,6 +2807,17 @@ git --version &amp;&amp; (
     )
   )
 ) || SET ERRORLEVEL=0</PreBuildEvent>
+    <PreBuildEvent Condition=" '$(OS)' == 'Unix' ">echo &gt; /dev/null 2&gt; "$(ProjectDir)commit.txt"
+
+git --version &amp;&amp; (
+  REV=`git rev-parse --short HEAD` &amp;&amp; (
+    git diff-index --quiet HEAD -- &amp;&amp; (
+      echo "${REV}" &gt;&gt; "$(ProjectDir)commit.txt"
+    ) || (
+      echo "${REV} (dirty)" &gt;&gt; "$(ProjectDir)commit.txt"
+    )
+  )
+) || exit 0</PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>
