@@ -1741,8 +1741,11 @@ namespace com.clusterrr.hakchi_gui
             {
                 if (WaitingClovershellForm.WaitForDevice(this))
                 {
+                    string currDateTime = DateTime.Now.ToString("yyyy-MM-dd HH.mm.ss");
                     var screenshot = WorkerForm.TakeScreenshot();
-                    var screenshotPath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName() + ".png");
+                    var screenshotDirectory = Path.Combine(Program.BaseDirectoryExternal, "screenshots");
+                    var screenshotPath = Path.Combine(screenshotDirectory, $"Screenshot {currDateTime}.png");
+                    if (!Directory.Exists(screenshotDirectory)) Directory.CreateDirectory(screenshotDirectory);
                     screenshot.Save(screenshotPath, ImageFormat.Png);
                     var showProcess = new Process()
                     {
@@ -1752,19 +1755,6 @@ namespace com.clusterrr.hakchi_gui
                         }
                     };
                     showProcess.Start();
-                    new Thread(delegate ()
-                    {
-                        try
-                        {
-                            showProcess.WaitForExit();
-                        }
-                        catch { }
-                        try
-                        {
-                            File.Delete(screenshotPath);
-                        }
-                        catch { }
-                    }).Start();
                 }
             }
             catch (Exception ex)
